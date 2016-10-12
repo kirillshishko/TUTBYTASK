@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1476211990533" stop="1476212116238" version="1.4.16" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default Suite : MailTutBy</name>
+    <title>Default Suite : MailTutBy</title>
+    <test-cases>
+        <test-case start="1476212000955" stop="1476212052396" status="passed">
+            <name>sendLetters[kirillshishko1@tut.by,qwerty1ASDF,kirillshishko2@tut.by,qwerty2ASDF,8346869928d1061b1cd690_tueoct11215310msk2016]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="asus"/>
+                <label name="thread" value="22704@asus.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1476212052430" stop="1476212064330" status="broken">
+            <name>sendLetters[kirillshishko3@tut.by,qwerty3ASDF,kirillshishko4@tut.by,qwerty4ASDF,564bea812f601d7b78e27c_tueoct11215310msk2016]</name>
+            <failure>
+                <message>SMTPSendFailedException: 554 5.7.1 Message rejected under suspicion of SPAM; https://ya.cc/0EgTP 1476212051-gqkhjqx0iW-sBv8AFFA
+</message>
+                <stack-trace>com.sun.mail.smtp.SMTPSendFailedException: 554 5.7.1 Message rejected under suspicion of SPAM; https://ya.cc/0EgTP 1476212051-gqkhjqx0iW-sBv8AFFA
+
+	at com.sun.mail.smtp.SMTPTransport.issueSendCommand(SMTPTransport.java:2267)
+	at com.sun.mail.smtp.SMTPTransport.finishData(SMTPTransport.java:2045)
+	at com.sun.mail.smtp.SMTPTransport.sendMessage(SMTPTransport.java:1260)
+	at javax.mail.Transport.send0(Transport.java:255)
+	at javax.mail.Transport.send(Transport.java:124)
+	at helperClasses.EmailOperations.sendSimpleMessage(EmailOperations.java:59)
+	at TutByMailTest.sendLetters(TutByMailTest.java:74)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:74)
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:121)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:144)
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="asus"/>
+                <label name="thread" value="22704@asus.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1476212064331" stop="1476212089288" status="broken">
+            <name>sendLetters[kirillshishko5@tut.by,qwerty5ASDF,kirillshishko6@tut.by,qwerty6ASDF,5c4d76aafc9a3255da2814_tueoct11215310msk2016]</name>
+            <failure>
+                <message>SMTPSendFailedException: 554 5.7.1 Message rejected under suspicion of SPAM; https://ya.cc/0EgTP 1476212063-v8HQJOmXcj-sN7uWFFd
+</message>
+                <stack-trace>com.sun.mail.smtp.SMTPSendFailedException: 554 5.7.1 Message rejected under suspicion of SPAM; https://ya.cc/0EgTP 1476212063-v8HQJOmXcj-sN7uWFFd
+
+	at com.sun.mail.smtp.SMTPTransport.issueSendCommand(SMTPTransport.java:2267)
+	at com.sun.mail.smtp.SMTPTransport.finishData(SMTPTransport.java:2045)
+	at com.sun.mail.smtp.SMTPTransport.sendMessage(SMTPTransport.java:1260)
+	at javax.mail.Transport.send0(Transport.java:255)
+	at javax.mail.Transport.send(Transport.java:124)
+	at helperClasses.EmailOperations.sendSimpleMessage(EmailOperations.java:59)
+	at TutByMailTest.sendLetters(TutByMailTest.java:74)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:74)
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:121)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:144)
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="asus"/>
+                <label name="thread" value="22704@asus.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1476212089288" stop="1476212103447" status="broken">
+            <name>sendLetters[kirillshishko7@tut.by,qwerty7ASDF,kirillshishko8@tut.by,qwerty8ASDF,c7431987439074b6a56e47_tueoct11215310msk2016]</name>
+            <failure>
+                <message>AuthenticationFailedException: 535 5.7.8 Error: authentication failed: Invalid user or password!
+</message>
+                <stack-trace>javax.mail.AuthenticationFailedException: 535 5.7.8 Error: authentication failed: Invalid user or password!
+
+	at com.sun.mail.smtp.SMTPTransport$Authenticator.authenticate(SMTPTransport.java:932)
+	at com.sun.mail.smtp.SMTPTransport.authenticate(SMTPTransport.java:843)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:748)
+	at javax.mail.Service.connect(Service.java:388)
+	at javax.mail.Service.connect(Service.java:246)
+	at javax.mail.Service.connect(Service.java:195)
+	at javax.mail.Transport.send0(Transport.java:254)
+	at javax.mail.Transport.send(Transport.java:124)
+	at helperClasses.EmailOperations.sendSimpleMessage(EmailOperations.java:59)
+	at TutByMailTest.sendLetters(TutByMailTest.java:74)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:74)
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:121)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:144)
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="asus"/>
+                <label name="thread" value="22704@asus.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1476212103448" stop="1476212116236" status="broken">
+            <name>sendLetters[kirillshishko9@tut.by,qwerty9ASDF,kirillshishko10@tut.by,qwerty10ASDF,564834a185918a27f6b524_tueoct11215310msk2016]</name>
+            <failure>
+                <message>AuthenticationFailedException: 535 5.7.8 Error: authentication failed: Invalid user or password!
+</message>
+                <stack-trace>javax.mail.AuthenticationFailedException: 535 5.7.8 Error: authentication failed: Invalid user or password!
+
+	at com.sun.mail.smtp.SMTPTransport$Authenticator.authenticate(SMTPTransport.java:932)
+	at com.sun.mail.smtp.SMTPTransport.authenticate(SMTPTransport.java:843)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:748)
+	at javax.mail.Service.connect(Service.java:388)
+	at javax.mail.Service.connect(Service.java:246)
+	at javax.mail.Service.connect(Service.java:195)
+	at javax.mail.Transport.send0(Transport.java:254)
+	at javax.mail.Transport.send(Transport.java:124)
+	at helperClasses.EmailOperations.sendSimpleMessage(EmailOperations.java:59)
+	at TutByMailTest.sendLetters(TutByMailTest.java:74)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:74)
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:121)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:144)
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="asus"/>
+                <label name="thread" value="22704@asus.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

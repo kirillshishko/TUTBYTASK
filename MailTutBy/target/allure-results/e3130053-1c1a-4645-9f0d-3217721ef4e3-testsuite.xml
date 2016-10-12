@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1476170600885" stop="1476170711586" version="1.4.16" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default Suite : MailTutBy</name>
+    <title>Default Suite : MailTutBy</title>
+    <test-cases>
+        <test-case start="1476170609004" stop="1476170651227" status="passed">
+            <name>sendLetters[kirillshishko1@tut.by,qwerty1ASDF,kirillshishko2@tut.by,qwerty2ASDF,234facb9f9bdaea6581f78_tueoct11102320msk2016]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="asus"/>
+                <label name="thread" value="7236@asus.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1476170651262" stop="1476170669327" status="broken">
+            <name>sendLetters[kirillshishko3@tut.by,qwerty3ASDF,kirillshishko4@tut.by,qwerty4ASDF,a24d7c926abe3c8a2ca804_tueoct11102320msk2016]</name>
+            <failure>
+                <message>SMTPSendFailedException: 553 5.7.1 Sender address rejected: not owned by auth user.
+</message>
+                <stack-trace>com.sun.mail.smtp.SMTPSendFailedException: 553 5.7.1 Sender address rejected: not owned by auth user.
+;
+  nested exception is:
+	com.sun.mail.smtp.SMTPSenderFailedException: 553 5.7.1 Sender address rejected: not owned by auth user.
+
+	at com.sun.mail.smtp.SMTPTransport.issueSendCommand(SMTPTransport.java:2267)
+	at com.sun.mail.smtp.SMTPTransport.mailFrom(SMTPTransport.java:1758)
+	at com.sun.mail.smtp.SMTPTransport.sendMessage(SMTPTransport.java:1257)
+	at javax.mail.Transport.send0(Transport.java:255)
+	at javax.mail.Transport.send(Transport.java:124)
+	at helperClasses.EmailOperations.sendSimpleMessage(EmailOperations.java:56)
+	at TutByMailTest.sendLetters(TutByMailTest.java:74)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:74)
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:121)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:144)
+Caused by: com.sun.mail.smtp.SMTPSenderFailedException: 553 5.7.1 Sender address rejected: not owned by auth user.
+
+	at com.sun.mail.smtp.SMTPTransport.mailFrom(SMTPTransport.java:1767)
+	... 33 more
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="asus"/>
+                <label name="thread" value="7236@asus.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1476170669328" stop="1476170685268" status="broken">
+            <name>sendLetters[kirillshishko5@tut.by,qwerty5ASDF,kirillshishko6@tut.by,qwerty6ASDF,d84e3eb8c3775a1ff1e0ab_tueoct11102320msk2016]</name>
+            <failure>
+                <message>SMTPSendFailedException: 553 5.7.1 Sender address rejected: not owned by auth user.
+</message>
+                <stack-trace>com.sun.mail.smtp.SMTPSendFailedException: 553 5.7.1 Sender address rejected: not owned by auth user.
+;
+  nested exception is:
+	com.sun.mail.smtp.SMTPSenderFailedException: 553 5.7.1 Sender address rejected: not owned by auth user.
+
+	at com.sun.mail.smtp.SMTPTransport.issueSendCommand(SMTPTransport.java:2267)
+	at com.sun.mail.smtp.SMTPTransport.mailFrom(SMTPTransport.java:1758)
+	at com.sun.mail.smtp.SMTPTransport.sendMessage(SMTPTransport.java:1257)
+	at javax.mail.Transport.send0(Transport.java:255)
+	at javax.mail.Transport.send(Transport.java:124)
+	at helperClasses.EmailOperations.sendSimpleMessage(EmailOperations.java:56)
+	at TutByMailTest.sendLetters(TutByMailTest.java:74)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:74)
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:121)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:144)
+Caused by: com.sun.mail.smtp.SMTPSenderFailedException: 553 5.7.1 Sender address rejected: not owned by auth user.
+
+	at com.sun.mail.smtp.SMTPTransport.mailFrom(SMTPTransport.java:1767)
+	... 33 more
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="asus"/>
+                <label name="thread" value="7236@asus.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1476170685269" stop="1476170698657" status="broken">
+            <name>sendLetters[kirillshishko7@tut.by,qwerty7ASDF,kirillshishko8@tut.by,qwerty8ASDF,d0478f82f401d361a2abd5_tueoct11102320msk2016]</name>
+            <failure>
+                <message>SMTPSendFailedException: 553 5.7.1 Sender address rejected: not owned by auth user.
+</message>
+                <stack-trace>com.sun.mail.smtp.SMTPSendFailedException: 553 5.7.1 Sender address rejected: not owned by auth user.
+;
+  nested exception is:
+	com.sun.mail.smtp.SMTPSenderFailedException: 553 5.7.1 Sender address rejected: not owned by auth user.
+
+	at com.sun.mail.smtp.SMTPTransport.issueSendCommand(SMTPTransport.java:2267)
+	at com.sun.mail.smtp.SMTPTransport.mailFrom(SMTPTransport.java:1758)
+	at com.sun.mail.smtp.SMTPTransport.sendMessage(SMTPTransport.java:1257)
+	at javax.mail.Transport.send0(Transport.java:255)
+	at javax.mail.Transport.send(Transport.java:124)
+	at helperClasses.EmailOperations.sendSimpleMessage(EmailOperations.java:56)
+	at TutByMailTest.sendLetters(TutByMailTest.java:74)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:74)
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:121)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:144)
+Caused by: com.sun.mail.smtp.SMTPSenderFailedException: 553 5.7.1 Sender address rejected: not owned by auth user.
+
+	at com.sun.mail.smtp.SMTPTransport.mailFrom(SMTPTransport.java:1767)
+	... 33 more
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="asus"/>
+                <label name="thread" value="7236@asus.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1476170698658" stop="1476170711585" status="broken">
+            <name>sendLetters[kirillshishko9@tut.by,qwerty9ASDF,kirillshishko10@tut.by,qwerty10ASDF,5d4295b579f7109224eee1_tueoct11102320msk2016]</name>
+            <failure>
+                <message>SMTPSendFailedException: 553 5.7.1 Sender address rejected: not owned by auth user.
+</message>
+                <stack-trace>com.sun.mail.smtp.SMTPSendFailedException: 553 5.7.1 Sender address rejected: not owned by auth user.
+;
+  nested exception is:
+	com.sun.mail.smtp.SMTPSenderFailedException: 553 5.7.1 Sender address rejected: not owned by auth user.
+
+	at com.sun.mail.smtp.SMTPTransport.issueSendCommand(SMTPTransport.java:2267)
+	at com.sun.mail.smtp.SMTPTransport.mailFrom(SMTPTransport.java:1758)
+	at com.sun.mail.smtp.SMTPTransport.sendMessage(SMTPTransport.java:1257)
+	at javax.mail.Transport.send0(Transport.java:255)
+	at javax.mail.Transport.send(Transport.java:124)
+	at helperClasses.EmailOperations.sendSimpleMessage(EmailOperations.java:56)
+	at TutByMailTest.sendLetters(TutByMailTest.java:74)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:74)
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:121)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:144)
+Caused by: com.sun.mail.smtp.SMTPSenderFailedException: 553 5.7.1 Sender address rejected: not owned by auth user.
+
+	at com.sun.mail.smtp.SMTPTransport.mailFrom(SMTPTransport.java:1767)
+	... 33 more
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="asus"/>
+                <label name="thread" value="7236@asus.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

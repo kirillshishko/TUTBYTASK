@@ -1,0 +1,43 @@
+<users>
+    <user>
+        <username>kirillshishko1@tut.by</username>
+        <password>qwerty1ASDF</password>
+    </user>
+    <user>
+        <username>kirillshishko2@tut.by</username>
+        <password>qwerty2ASDF</password>
+    </user>
+    <user>
+        <username>kirillshishko3@tut.by</username>
+        <password>qwerty3ASDF</password>
+    </user>
+    <user>
+        <username>kirillshishko4@tut.by</username>
+        <password>qwerty4ASDF</password>
+    </user>
+    <user>
+        <username>kirillshishko5@tut.by</username>
+        <password>qwerty5ASDF</password>
+    </user>
+    <user>
+        <username>kirillshishko6@tut.by</username>
+        <password>qwerty6ASDF</password>
+    </user>
+    <user>
+        <username>kirillshishko7@tut.by</username>
+        <password>qwerty7ASDF</password>
+    </user>
+    <user>
+        <username>kirillshishko8@tut.by</username>
+        <password>qwerty8ASDF</password>
+    </user>
+    <user>
+        <username>kirillshishko9@tut.by</username>
+        <password>qwerty9ASDF</password>
+    </user>
+    <user>
+        <username>kirillshishko10@tut.by</username>
+        <password>qwerty10ASDF</password>
+    </user>
+
+</users>

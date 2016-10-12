@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1476149673052" stop="1476149700074" version="1.4.16" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default Suite : MailTutBy</name>
+    <title>Default Suite : MailTutBy</title>
+    <test-cases>
+        <test-case start="1476149681931" stop="1476149699980" status="passed">
+            <name>sendLetterToYourself</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="asus"/>
+                <label name="thread" value="11244@asus.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>
