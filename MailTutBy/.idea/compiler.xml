@@ -23,10 +23,12 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="MailTutBy" />
+        <module name="MailTUTBY" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="MailTutBy" target="1.5" />
+      <module name="MailTUTBY" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
